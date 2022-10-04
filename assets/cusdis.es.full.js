@@ -27,10 +27,10 @@ function t(t) {
     }(e, t)),
     e.srcdoc = (e=>{
         const t = e.dataset.host || "https://cusdis.com"
-          , n = e.dataset.iframe || `https://Ali-Frh.github.io/Blog//assets/iframe.umd.full.js`;
+          , n = e.dataset.iframe || `https://Ali-Frh.github.io/blog//assets/iframe.umd.full.js`;
 
           // , n = e.dataset.iframe || `${t}/js/iframe.umd.js`;
-        return `<!DOCTYPE html>\n<html dir="rtl">\n  <head>\n    <link rel="stylesheet" href="https://Ali-Frh.github.io/Blog//assets/cusdis.css">\n    <base target="_parent" />\n    <link>\n    <script>\n      window.CUSDIS_LOCALE = ${JSON.stringify(window.CUSDIS_LOCALE)}\n      window.__DATA__ = ${JSON.stringify(e.dataset)}\n    <\/script>\n  </head>\n  <body>\n    <div id="root"><span class="heading">بخش نظرات</span></div>\n    <script src="${n}" type="module">\n      \n    <\/script>\n  </body>\n</html>`
+        return `<!DOCTYPE html>\n<html dir="rtl">\n  <head>\n    <link rel="stylesheet" href="https://Ali-Frh.github.io/blog//assets/cusdis.css">\n    <base target="_parent" />\n    <link>\n    <script>\n      window.CUSDIS_LOCALE = ${JSON.stringify(window.CUSDIS_LOCALE)}\n      window.__DATA__ = ${JSON.stringify(e.dataset)}\n    <\/script>\n  </head>\n  <body>\n    <div id="root"><span class="heading">بخش نظرات</span></div>\n    <script src="${n}" type="module">\n      \n    <\/script>\n  </body>\n</html>`
     }
     )(t),
     e.style.width = "100%",
